@@ -7,7 +7,7 @@ var WORLDMONGER = WORLDMONGER || {};
         BABYLON.Material.call(this, name, scene);
         this.light = light;
 
-        this.groundTexture = new BABYLON.Texture("src/Shaders/Ground/ground.jpg", scene);
+        this.groundTexture = new BABYLON.Texture("src/Shaders/Ground/Ground.jpg", scene);
         this.groundTexture.uScale = 6.0;
         this.groundTexture.vScale = 6.0;
 

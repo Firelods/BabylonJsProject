@@ -189,7 +189,7 @@ var WORLDMONGER = WORLDMONGER || {};
     WORLDMONGER.GroundMaterial = function (name, scene, light) {
         babylonjs__WEBPACK_IMPORTED_MODULE_0__["Material"].call(this, name, scene);
         this.light = light;
-        this.groundTexture = new babylonjs__WEBPACK_IMPORTED_MODULE_0__["Texture"]("src/Shaders/Ground/ground.jpg", scene);
+        this.groundTexture = new babylonjs__WEBPACK_IMPORTED_MODULE_0__["Texture"]("src/Shaders/Ground/Ground.jpg", scene);
         this.groundTexture.uScale = 6.0;
         this.groundTexture.vScale = 6.0;
         this.grassTexture = new babylonjs__WEBPACK_IMPORTED_MODULE_0__["Texture"]("src/Shaders/Ground/grass.jpg", scene);
